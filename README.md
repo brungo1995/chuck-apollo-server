@@ -13,8 +13,8 @@ This is a GraphQl API that is used to be a wrapper of a [Chuck Norris API ](http
  * This should install all dependencies
  * Then run 
  ```bash
-    npm run dev
+    npm run start
 ```
- * The dev script will start the API listening on port 4000 
+ * The start script will start the API listening on port 4000 
  * The API will be accessible through this url <http://localhost:4000/ > 
  * Inpect the console you should see this message "🚀  Server ready at http://localhost:4000/" 
