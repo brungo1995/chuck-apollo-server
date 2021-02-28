@@ -11,7 +11,7 @@ const fetchCategories = async () => {
         return categories
     } catch (error) {
         console.log(error);
-        return []
+        return error
     }
 }
 
@@ -21,7 +21,7 @@ const fectchRandomJoke = async (category) => {
         return data
     } catch (error) {
         console.log(error);
-        return {}
+        return error
     }
 }
 
